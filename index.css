@@ -1,0 +1,185 @@
+body {
+  margin: 0 auto;
+  font-family: "Smythe", cursive;
+  max-width: 500px;
+  position: relative;
+  border-right: 1px solid #f8f3f3;
+  border-left: 1px solid #faf8f8;
+}
+
+header {
+  background-image: url("bgimg.png");
+  height: 140px;
+  color: #ffffff;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  border-radius: 2px;
+}
+.heading {
+  padding-left: 30px;
+}
+h1 {
+  font-size: 39px;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-size: 18px;
+  margin-top: 0px;
+}
+
+.wrap-container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.orderTitle {
+  text-align: center;
+  padding-top: 20px;
+}
+
+
+.large-font {
+  font-size: 28px;
+}
+
+
+.small-font {
+  font-size: 20px;
+}
+.orderPrice,
+.add,
+.tP {
+  position: absolute;
+  right: 0;
+  margin-right: 20px;
+}
+
+.removeBtn {
+  border: none;
+  background-color: white;
+  color: #bbbbbb;
+  cursor: pointer;
+}
+
+#completeOrderBtn {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 100%;
+  padding: 1.2rem 3rem;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.container {
+  display: flex;
+  border-bottom: 1px solid rgb(207, 199, 199);
+  gap: 20px;
+}
+.emoji {
+  display: inline-block;
+  padding-top: 30px;
+  font-size: 60px;
+  width: 60px;
+  opacity: 0.9;
+}
+
+.foodInfo {
+  padding-left: 17px;
+}
+
+.add {
+  margin-top: 45px;
+  border-radius: 50%;
+  border: 1.5px solid #dedede;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  background-color: white;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+.ingredients {
+  color: #8b8b8b;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.name {
+  margin-bottom: 0px;
+}
+.price {
+  margin-top: 0px;
+}
+
+#totalPrice {
+  padding-top: 15px;
+}
+
+.modal {
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 400px;
+  width: 370px;
+  border-radius: 5px;
+  background-color: white;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-shadow: 0px 0px 40px 20px #aba5a5;
+}
+input {
+  margin-top: 10px;
+  border: 1px solid #212529;
+  padding: 10px;
+  width: 80%;
+  border-radius: 3px;
+}
+.modal-btn ,#completeOrderBtn {
+  background-color: #16db99;
+  color: white;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+
+.modal-btn {
+  display: block;
+  padding: 10px 24px;
+  margin: 30px auto 0;
+  width: 86%;
+  
+}
+
+.modal-title {
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+.ordersDiv {
+  border-bottom: solid 2px #393333;
+  padding-top: 35px;
+  padding-bottom: 20px;
+}
+.order-section {
+  padding-bottom: 5px;
+}
+
+.p-msg {
+  border: none;
+  border-radius: 3px;
+  background: #ecfdf5;
+  padding: 35px 100px;
+  margin: 40px 0;
+  text-align: center;
+  color: #065f46;
+}
+
+.hidden {
+  display: none;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Smythe&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="heading">
+        <h1>Jimmy's Dinner</h1>
+        <h3>The best burgers and pizzas in town</h3>
+      </div>
+    </header>
+    <div class="wrap-container" id="content-div">
+      <div id="optionsMenu"></div>
+      <div id="orderSection" class="hidden">
+        <div class="orderTitle large-font">Your Order</div>
+        <div id="orders" class="ordersDiv"></div>
+        <div id="totalPrice" class="large-font"></div>
+        <button id="completeOrderBtn">Complete order</button>
+      </div>
+
+      <div id="thanks-msg"></div>
+      <div id="modalId" class="modal hidden">
+        <p class="modal-title">Enter card details</p>
+        <form id="card-details-form">
+          <input
+            type="text"
+            name="fullName"
+            placeholder="Enter your full name"
+            id="nameInput"
+            required
+          />
+          <input
+            type="number"
+            name="number"
+            placeholder="Enter your card number"
+            required
+          />
+          <input type="number" name="ccv" placeholder="CCV" required />
+          <button type="submit" class="modal-btn" id="payBtn">Pay</button>
+        </form>
+      </div>
+    </div>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
